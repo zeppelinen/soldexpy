@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soldexpy"
+version = "0.1.1"
+description = "Solana Raydium utility draft"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT License" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "base58",
+    "solders",
+    "solana==0.36.*",
+]
+
+[project.urls]
+Homepage = "https://github.com/zeppelinen/soldexpy"
+"Bug Tracker" = "https://github.com/zeppelinen/soldexpy/issues"
