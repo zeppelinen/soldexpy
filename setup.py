@@ -8,6 +8,6 @@ setuptools.setup(
     install_requires=[
         "base58",
         "solders",
-        "solana==0.36.0",
+        "solana==0.36.*",
     ],
 )
