@@ -65,11 +65,11 @@ class RaydiumPool:
             )
 
         if self.quote_mint_address == SOL_MINT_ADDRESS:
-            self.quote_token = "SOL"
-        else:
-            raise Exception("Unsupported quote token")
+             self.quote_token = "SOL"
+        # else:
+        #     raise Exception("Unsupported quote token")
 
-        self.update_pool_vaults_balance()
+        # self.update_pool_vaults_balance()
 
     def to_dict(self):
         return {
